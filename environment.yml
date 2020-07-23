@@ -1,0 +1,14 @@
+name: reco-tour
+channels:
+- anaconda
+- conda-forge
+- defaults
+- bioconda
+dependencies:
+    - matplotlib
+    - jupyterlab
+    - pandas
+    - seaborn
+    - scikit-learn
+    - pip:
+        - xlrd
